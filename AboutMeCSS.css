@@ -1,0 +1,130 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.fact-header {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(201, 236, 247);
+    font-family: 'Courier New', Courier, monospace; 
+    font-size: auto;
+    /* overflow-x:hidden; */
+}
+
+.bio-text{
+    font-size: 25px;
+}
+
+.bio-section{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+    
+.bio-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.bio-right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 30px;
+    margin-right: 50px;
+}
+
+.b-image{
+    width: 250px;
+    height: 250px;
+    margin: 5px;
+}
+
+.fact-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.ft-image{
+    width: 250px;
+    height: 250px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    overflow-wrap: break-word;
+    justify-content: center;
+    text-align: center;
+}
+
+button {
+    border-radius: 20px;
+    height: 60px;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+}
+
+.F1{
+    background-color: lightpink;
+}
+
+.F1:hover{
+    background-color: rgb(249, 211, 216);
+}
+
+.F2{
+    background-color: rgb(249, 210, 216);
+}
+
+.F2:hover{
+    background-color: rgb(251, 236, 238);
+}
+
+.F3{
+    background-color: rgb(217, 201, 244);
+}
+
+.F3:hover{
+    background-color: rgb(233, 226, 247);
+}
+
+.F4{
+    background-color: rgb(182, 187, 255);
+}
+
+.F4:hover{
+    background-color: rgb(201, 204, 246);
+}
+
+.F5{
+    background-color: turquoise;
+}
+
+.F5:hover{
+    background-color: rgb(167, 223, 218);
+}
+
+.F6{
+    background-color: rgb(75, 162, 234);
+}
+
+.F6:hover{
+    background-color: rgb(187, 205, 230);
+}
+
